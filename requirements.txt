@@ -1,0 +1,10 @@
+pandas
+ultralytics
+supervision
+opencv-python
+numpy
+transformers
+pillow
+roboflow
+torch
+torchvision

@@ -7,12 +7,22 @@ from utils import get_center_of_bbox,get_bbox_width
 def draw_triangle(frame, bbox, color):
     if bbox is None or len(bbox) < 4:
         return frame
-    bbox = list(map(int, bbox))
-    y = bbox[1]
-    x, _ = get_center_of_bbox(bbox)
-    triangle_points = np.array([[x, y], [x - 10, y - 20], [x + 10, y - 20]], np.int32)
+
+    x1, y1, x2, y2 = map(int, bbox)
+
+    # center of ball
+    x = int((x1 + x2) / 2)
+    y = int((y1 + y2) / 2)
+
+    triangle_points = np.array([
+        [x, y - 10],
+        [x - 10, y - 30],
+        [x + 10, y - 30]
+    ], np.int32)
+
     cv2.drawContours(frame, [triangle_points], 0, color, cv2.FILLED)
     cv2.drawContours(frame, [triangle_points], 0, (0,0,0), 2)
+
     return frame
 
 def draw_ellipse(frame, bbox, color, track_id=None):

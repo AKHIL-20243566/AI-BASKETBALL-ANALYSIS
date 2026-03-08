@@ -19,7 +19,7 @@ def main():
     ball_tracks=ball_tracker.get_object_tracks(
         video_frames,
         read_from_stub=True,stub_path="stubs/ball_tracks.stubs.pkl"
-    )ṇ
+    )
 
     #Remove wrong ball Detections 
     ball_tracks=ball_tracker.remove_wrong_detections(ball_tracks)
