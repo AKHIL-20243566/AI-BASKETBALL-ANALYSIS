@@ -2,6 +2,22 @@
 
 ### Robotics Club Summer Project | Computer Vision & Sports Analytics
 
+Title
+↓
+Demo Video
+↓
+Introduction
+↓
+Problem Statement
+↓
+Project Highlights (NEW)
+↓
+Technology Stack
+↓
+System Pipeline
+↓
+Features
+
 ## 🎥 Demo Video
 
 [![Watch Demo](https://img.shields.io/badge/Watch-Demo%20Video-red?style=for-the-badge\&logo=google-drive)](https://drive.google.com/file/d/1y1imgGHqqAk9wsFZVhN0CWAGIfunT7ix/view?usp=drive_link)
@@ -45,6 +61,14 @@ The objective of this project was to create an affordable AI-powered solution ca
 
 ---
 
+# 🚀 Project Highlights
+
+- 🏀 Built an end-to-end computer vision pipeline for player detection, tracking, team classification, and ball possession analysis.
+- ⚙️ Implemented a **7-stage processing pipeline** from video input to annotated gameplay analytics.
+- 🤖 Developed using **Python, OpenCV, PyTorch, Ultralytics YOLO, Supervision, ByteTrack, and Fashion-CLIP**.
+- 🚀 Implemented cached tracking outputs to eliminate repeated model inference during development.
+- 🎤 Presented at **Sankalp**, the annual Robotics Club event at MNNIT Allahabad.
+  
 # ✨ Features
 
 ## 🏃 Player Detection
@@ -79,32 +103,6 @@ Generates a fully annotated output video containing:
 ## ⚡ Stub-Based Development
 
 Caches tracking outputs to speed up development and debugging without rerunning expensive detection models.
-
----
-
-# 📊 Results
-
-The system successfully performs:
-
-✅ Player Detection using YOLO
-
-✅ Basketball Detection using a custom-trained detector
-
-✅ Multi-Object Tracking across video frames
-
-✅ Automatic Team Classification using CLIP
-
-✅ Ball Possession Estimation
-
-✅ Annotated Video Generation
-
-### Sample Analytics Generated
-
-* Player trajectories
-* Ball movement tracking
-* Team classification
-* Possession sequences
-* Annotated gameplay footage
 
 ---
 
@@ -147,7 +145,6 @@ The system successfully performs:
 * PyCharm
 
 ---
-
 # ⚙️ System Pipeline
 
 ```text
@@ -174,6 +171,32 @@ Video Annotation
       ▼
 Output Analytics Video
 ```
+
+---
+
+# 📊 Results
+
+The system successfully performs:
+
+✅ Player Detection using YOLO
+
+✅ Basketball Detection using a custom-trained detector
+
+✅ Multi-Object Tracking across video frames
+
+✅ Automatic Team Classification using CLIP
+
+✅ Ball Possession Estimation
+
+✅ Annotated Video Generation
+
+### Sample Analytics Generated
+
+* Player trajectories
+* Ball movement tracking
+* Team classification
+* Possession sequences
+* Annotated gameplay footage
 
 ---
 
@@ -327,81 +350,27 @@ One of the biggest challenges was integrating multiple AI components into a sing
 
 ---
 
-# 👨‍💻 Team Contributions
+# 👥 Team Contributions
 
-## Akhil Prakash
+### Akhil Prakash
 
-### Responsibilities
+- Pipeline architecture
+- Detection and tracking integration
+- Team classification
+- Ball possession analysis
+- System debugging and repository management
 
-* End-to-end pipeline integration
-* Detection and tracking workflow implementation
-* Team assignment integration
-* Ball possession analysis pipeline
-* System debugging and testing
-* Project architecture and repository management
+### Anshika Sharma
 
-### Challenges Faced
+- Dataset preparation
+- Model experimentation
+- Training support
 
-* Dependency conflicts involving PyTorch, NumPy, SciPy, and Ultralytics
-* Integration of multiple AI modules into a single pipeline
-* Tracking consistency across frames
-* Managing cached tracking stubs during development
-* Debugging model inference workflows
+### Pragya Agarwal
 
-### Learnings
-
-* Practical Computer Vision Engineering
-* AI Pipeline Design
-* Multi-Object Tracking Systems
-* Real-world debugging and deployment workflows
-
----
-
-## Anshika Sharma
-
-### Responsibilities
-
-* Dataset preparation
-* Data cleaning and validation
-* Model experimentation
-* Training support
-
-### Challenges Faced
-
-* Data quality and annotation consistency
-* Training parameter optimization
-* Performance evaluation
-
-### Learnings
-
-* Dataset engineering
-* Deep learning experimentation
-* Model validation techniques
-
----
-
-## Pragya Agarwal
-
-### Responsibilities
-
-* Research and analytics workflow
-* Testing and validation
-* Documentation support
-* Project evaluation
-
-### Challenges Faced
-
-* Coordinating project modules
-* Understanding end-to-end workflow interactions
-* Validating analytical outputs
-
-### Learnings
-
-* AI project lifecycle
-* Computer vision applications
-* Collaborative software development
-
----
+- Testing and validation
+- Documentation
+- Project evaluation
 
 # 🔮 Future Improvements
 
