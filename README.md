@@ -5,9 +5,6 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Ultralytics YOLO](https://img.shields.io/badge/Ultralytics-YOLO-111827?style=for-the-badge)
-![Supervision](https://img.shields.io/badge/Supervision-Tracking-10B981?style=for-the-badge)
-![ByteTrack](https://img.shields.io/badge/ByteTrack-MOT-F59E0B?style=for-the-badge)
-![Fashion--CLIP](https://img.shields.io/badge/Fashion--CLIP-Team%20Classification-8B5CF6?style=for-the-badge)
 ```
 Title
 ↓
